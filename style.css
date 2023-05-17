@@ -1,0 +1,68 @@
+/* 
+ * Colour Palette
+ * 
+ * #EEE - Main page background
+ * #444 - Main body text
+ * #58CCF1 - Accent background
+ * #F25757 - Some sort of red/pink
+ * #F17105 - Some sort of orange
+ */
+
+* {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	background-color: #88CCF1;
+}
+
+body {
+	margin: 40px auto;
+	max-width: 800px;
+	line-height: 1.6;
+	font-size: 18px;
+	color: #444;
+	padding: 0 10px;
+	background-color: #EEE;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table, th, td {
+	border: 2px solid #EEE;
+	border-collapse: collapse;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+th {
+	background: #88CCF1;
+	color: #FFF;
+}
+
+td {
+	color: #222;
+	background: #BBB;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.2
+}
+
+.basicInput {
+	text-align: left;
+}
+
+.extraInfo {
+	text-align: left;
+	vertical-align: top;
+	width: 200px;
+	height: 100px;
+}
