@@ -62,11 +62,18 @@ h3 {
 
 .basicInput {
 	text-align: left;
+	width: 25em;
+	height: 1em;
+	margin-left: 0.5em;
 }
 
 .extraInfo {
 	text-align: left;
 	vertical-align: top;
-	width: 200px;
-	height: 100px;
+	width: 25em;
+	height: 5em;
+}
+
+.inputDiv {
+	display: table-cell;
 }

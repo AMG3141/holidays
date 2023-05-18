@@ -15,12 +15,29 @@
 	<script src="script.js"></script>
 	<h1>Plans for London</h1>
 	<!-- Input boxes -->
-	<textarea id="tabLondonInput0" class="basicInput" placeholder="Enter name of thing"></textarea>
-	<textarea id="tabLondonInput1" class="basicInput" placeholder="Enter link"></textarea>
-	<textarea id="tabLondonInput2" class="extraInfo" placeholder="Any extra relevant information"></textarea>
-	<input type="checkbox" id="tabLondonBookedInput">
-	<label for="tabLondonBookedInput">Booked?</label>
-	<button onclick="addToTable('tabLondon')">Add Thing to Do</button>
+	<div class="inputDiv">
+		<label for="tabLondonInput0">Name</label>
+		<textarea id="tabLondonInput0" class="basicInput" placeholder="Enter name of thing"></textarea>
+	</div>
+
+	<div class="inputDiv">
+		<label for="tabLondonInput1">Link</label>
+		<textarea id="tabLondonInput1" class="basicInput" placeholder="Enter link"></textarea>
+	</div>
+
+	<div>
+		<label for="tabLondonInput2">Extra Information</label>
+		<textarea id="tabLondonInput2" class="extraInfo" placeholder="Any extra relevant information" rows="5" cols="50"></textarea>
+	</div>
+
+	<div>
+		<label for="tabLondonBookedInput">Booked?</label>
+		<input type="checkbox" id="tabLondonBookedInput">
+	</div>
+
+	<div>
+		<button onclick="addToTable('tabLondon')">Add Thing to Do</button>
+	</div>
 
 	<h2>Ideas</h2>
 	<!-- Table for ideas -->
