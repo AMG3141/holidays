@@ -3,6 +3,7 @@
  * 
  * #EEE - Main page background
  * #444 - Main body text
+ * #222 - Table cell background
  * #58CCF1 - Accent background
  * #F25757 - Some sort of red/pink
  * #F17105 - Some sort of orange
@@ -11,6 +12,12 @@
 * {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.2
 }
 
 h1 {
@@ -45,8 +52,8 @@ table, th, td {
 }
 
 th {
-	background: #88CCF1;
 	color: #FFF;
+	background: #88CCF1;
 }
 
 td {
@@ -54,17 +61,10 @@ td {
 	background: #BBB;
 }
 
-h1,
-h2,
-h3 {
-	line-height: 1.2
-}
-
 .basicInput {
 	text-align: left;
 	width: 25em;
 	height: 1em;
-	margin-left: 0.5em;
 }
 
 .extraInfo {
@@ -72,8 +72,24 @@ h3 {
 	vertical-align: top;
 	width: 25em;
 	height: 5em;
+
 }
 
-.inputDiv {
+label {
+	display: inline-block;
+	/* width: 10em; */
+	text-align: right;
+}
+
+div {
+	text-align: center;
+	align-content: center;
+	border: 1px solid #FF0000;
 	display: table-cell;
+}
+
+section {
+	align-items: center;
+	text-align: center;
+	align-content: center;
 }
